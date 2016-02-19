@@ -1,5 +1,7 @@
 <?php
 //初期設定
+//dataディレクトリを生成しておくこと
+
 //http://www60.atwiki.jp/kassimine/の60がサーバーID、kassimineがサイトID
 //サーバーID
 $serverid = 60;
@@ -34,7 +36,6 @@ while($e < $error){
    if(in_array($id, $skip)){
       echo $id."Skip!<br>\n";
       $id++;
-      
       sleep(2);
       continue;
    }
