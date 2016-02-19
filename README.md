@@ -1,2 +1,2 @@
-# atpagesbackup
-atpagesが不安定なのでバックアップを取るプログラム作った
+# atwikibackup
+atwikiが不安定なのでバックアップを取るプログラム作った
