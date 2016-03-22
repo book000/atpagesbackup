@@ -53,7 +53,7 @@ $html = str_replace($h, "", $html);
 file_put_contents("./data/".$id.".txt",$html);
 echo $id." Success<br>";
 $id++;
-//連続アクセスで制限されるのを防ぐため毎アクセス後に2秒待機
+//連続アクセスで制限されるのを防ぐため毎アクセス後に5秒待機
 sleep(5);
 }
 echo "ErrCount:".$error."! exited!";
